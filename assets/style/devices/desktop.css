@@ -1,0 +1,19 @@
+nav, header {
+    background-color: var(--bg-color-header);
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-list {
+    display: flex;
+}
+.nav-list li {
+    list-style: none;
+}
+.nav-list li a, .contact-btn {
+    text-decoration: none;
+    color: var(--color-white);
+}
