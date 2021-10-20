@@ -2,6 +2,8 @@
     margin:0;
     padding:0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@500&display=swap');
+
 
 :root {
     --icon-header-left:var(--icon-header-left);
@@ -16,4 +18,9 @@
     --color-gray-footer: #5E7070;
     --color-white: #FFFFFF;
     --color-pink: #F67E7E;
+    --font-nav: 'Livvic', sans-serif;
+    --bg-header-left: url('/assets/icons/bg-pattern-home-1.svg');
+    --bg-header-right: url('/assets/icons/bg-pattern-home-2.svg');
+    --bg-detail-right: url('/assets/icons/bg-pattern-home-3.svg');
+
 }
