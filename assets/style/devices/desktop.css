@@ -1,19 +1,22 @@
 nav, header {
     background-color: var(--bg-color-header);
 }
-
-
-.wrapper {
+.nav {
+    padding: 5% 5%;
+}
+.nav-left {
     display: flex;
-    justify-content: space-around;
+
 }
 .nav-list {
     display: flex;
+
 }
-.nav-list li {
-    list-style: none;
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
 }
-.nav-list li a, .contact-btn {
+.nav-list li a, .nav-right a {
     text-decoration: none;
     color: var(--color-white);
-}
+} 
