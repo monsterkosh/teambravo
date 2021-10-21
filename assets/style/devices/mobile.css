@@ -192,7 +192,6 @@ h2 {
 }
 
 
-/* ---------- CAMBIOS EMI----------- */
 
 /******** seccion: testimonials ********/
 
@@ -220,7 +219,7 @@ h2 {
 }
 
 .test-title {
-    font-size: 3rem;
+    font-size: 1rem;
     font-family: var(--font-sans);
     font-weight: 900;
     margin: 0 200px;
@@ -239,7 +238,8 @@ h2 {
     font-family: var(--font-nav);
     font-weight: bold;
     font-size: 0.9rem;
-    display: flex;
+    /* display: flex; */
+
 }
 
 .test-card {
@@ -249,6 +249,7 @@ h2 {
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100px;
+    padding-bottom: 80px;
 }
 
 .test-description {
@@ -377,6 +378,7 @@ footer {
     color: var(--color-gray-footer);
     font-weight: bold;
     text-transform: capitalize;
+    text-align: end;
 }
 
 

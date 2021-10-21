@@ -1,7 +1,9 @@
 nav, header, #testimonials {
     background-color: var(--bg-color-header);
 }
-
+.top {
+    display: none;
+}
 #details {
     background-color: var(--bg-color-dark);
 }
@@ -28,7 +30,6 @@ footer {
 }
 .nav-list li a, .nav-right a {
     text-decoration: none;
-    
     color: var(--color-white);
     font-family: var(--font-nav);
     font-size: 20px;
