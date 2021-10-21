@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Livvic:wght@500&display=swap');
 
 
@@ -10,17 +11,22 @@
     --bg-color-header: #014E56;
     --bg-color-dark: #012F34;
     --bg-color-pink: #F67E7E;
-    --bg-color-footer: #000000;
+    --bg-color-footer: #002529;
     --bg-color-green-dark: #004047;
     --color-green-marks: #2C6269;
     --color-light-green: #79C8C7;
     --color-green-dark: #012F34;
-    --color-gray-footer: #5E7070;
+    --color-gray-footer: #70706D;
     --color-white: #FFFFFF;
+    --color-black: #000000;
     --color-pink: #F67E7E;
     --font-nav: 'Livvic', sans-serif;
+    --font-sans: sans-serif;
     --bg-header-left: url('/assets/icons/bg-pattern-home-1.svg');
     --bg-header-right: url('/assets/icons/bg-pattern-home-2.svg');
     --bg-detail-right: url('/assets/icons/bg-pattern-home-3.svg');
-
+    --bg-test-right: url('/assets/icons/bg-pattern-home-5.svg');
+    --bg-test-left: url('/assets/icons/bg-pattern-home-4-about-3.svg');
+    --bg-test-quotes: url('/assets/icons/icon-quotes.svg');
+    --bg-banner-left: url('/assets/icons/bg-pattern-home-6-about-5.svg');
 }
