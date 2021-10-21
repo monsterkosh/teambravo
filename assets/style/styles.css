@@ -1,5 +1,5 @@
-@import url('/teambravo/assets/style/basis.css');
-@import url('/teambravo/assets/style/global.css');
+@import url('./basis.css');
+@import url('global.css');
 @import url('./devices/desktop.css') (min-width: 1026px);
-@import url('/teambravo/assets/style/devices/tablet.css') (max-width: 1025px);
-@import url('/teambravo/assets/style/devices/mobile.css') (max-width: 480px);
+@import url('./devices/tablet.css') (max-width: 1025px);
+@import url('./devices/mobile.css') (max-width: 480px);
