@@ -46,6 +46,10 @@ footer {
     padding: 10px 40px;
 }
 
+.top {
+    display: none;
+}
+
 /******header*******/
 
 
