@@ -28,12 +28,19 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.top {
+    display: none;
+}
 .nav-list li a, .nav-right a {
     text-decoration: none;
     color: var(--color-white);
     font-family: var(--font-nav);
-    font-size: 20px;
+    font-size: 1.5rem;
 } 
 
 .nav ul li:nth-child(1) {
@@ -80,10 +87,6 @@ header {
 .header-title {
     justify-content: center;
     padding-top: 100px;
-}
-
-.header-description {
-
 }
 
 .header-title {
@@ -151,9 +154,9 @@ header {
     display: flex;
     text-transform: capitalize;
 }
-.details-title {
-    /* width: 40%; */
-}
+/* .details-title {
+     width: 40%; 
+} */
 .details-title h2{
     font-size: 2.5rem;
     font-weight: bolder;
