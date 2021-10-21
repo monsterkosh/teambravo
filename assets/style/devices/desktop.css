@@ -1,7 +1,9 @@
 nav, header, #testimonials {
     background-color: var(--bg-color-header);
 }
-
+.top {
+    display: none;
+}
 #details {
     background-color: var(--bg-color-dark);
 }
@@ -21,7 +23,7 @@ footer {
 .nav-list {
     display: flex;
     list-style: none;
-    align-items: center;
+   
 }
 
 .nav-wrapper {
@@ -29,19 +31,18 @@ footer {
     justify-content: space-around; */
     width: 100%;
     display: flex;
-    background-color: red;
 }
-
 .nav-right {
-    /* display: inline-block; */
-    justify-content: end;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 .nav-list li a, .nav-right a {
     text-decoration: none;
     color: var(--color-white);
     font-family: var(--font-nav);
-    font-size: 20px;
+    font-size: 1.5rem;
 } 
 
 .nav ul li:nth-child(1) {
@@ -106,7 +107,7 @@ header {
 }
 
 .header-description {
-    font-size: 20px;
+    font-size: 1.5rem;
     color: var(--color-white);
     font-family: var(--font-nav);
     line-height: 1.5;
@@ -149,7 +150,7 @@ header {
     width: 40%;
 }
 .details-wrapper h2{
-    font-size: 55px;
+    font-size: 3.5rem;
     font-weight: bolder;
 }
 .pink-line {
@@ -172,14 +173,14 @@ h2 {
     justify-content: center;
 }
 .detail-card  div:nth-child(2) p {
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.5;
     margin: 5px 0;
     font-weight: bolder;
     color: var(--color-white);
 }
 .detail-card  div:nth-child(2) h3 {
-    font-size: 20px;
+    font-size: 1.5rem;
     line-height: 1.5;
     margin: 7px 0;
     color: var(--color-pink);
