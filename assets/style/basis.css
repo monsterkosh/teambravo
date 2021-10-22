@@ -14,6 +14,7 @@
     --bg-color-footer: #002529;
     --bg-color-green-dark: #004047;
     --color-green-marks: #2C6269;
+    --color-btn: #014E56;
     --color-light-green: #79C8C7;
     --color-green-dark: #012F34;
     --color-gray-footer: #70706D;
@@ -29,4 +30,7 @@
     --bg-test-left: url('/assets/icons/bg-pattern-home-4-about-3.svg');
     --bg-test-quotes: url('/assets/icons/icon-quotes.svg');
     --bg-banner-left: url('/assets/icons/bg-pattern-home-6-about-5.svg');
+    --bg-contact-form: url('/assets/icons/bg-pattern-contact-2.svg');
+    --bg-contact-left: url('/assets/icons/bg-pattern-about-2-contact-1.svg');
+
 }

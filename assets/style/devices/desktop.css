@@ -13,7 +13,7 @@ footer {
 }
 
 .nav {
-    padding: 5% 0%;
+    padding: 5% 8%;
 }
 
 .nav-left {
@@ -377,7 +377,85 @@ footer {
 
 
 
+/*****contact******/
+#contact {
+    background-image: var(--bg-contact-left);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-color: var(--bg-color-header);
+    background-position-x: -100px;
+}
+.contact-wrapper {
+    display: flex;
+    justify-content:space-between;
+    padding: 0 8%;
+    height: 600px;
+    background-image: var(--bg-contact-form);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-position-x: 107%;
+}
 
+.contact-left, form{
+    display: flex;
+    flex-direction: column;
+    width: 80vh;
+}
+.contact-card {
+    display: flex;
+    align-items: center;
+}
+.contact-left h2 {
+    font-size: 3rem;
+    color: var(--color-white);
+    font-family: var(--font-nav);
+}
+.contact-left >h3 {
+    font-size: 1.8rem;
+    color: var(--color-pink);
+    margin: 20px 0 50px 0;
+    font-family: var(--font-nav);
+}
+.contact-left ul li div h3 { 
+    font-size: 1.2rem;
+    color: var(--color-white);
+    font-family: var(--font-nav);
+}
+.contact-card img {
+    margin: 0 30px 0 0;
+}
+.contact-right input {
+    background-color:transparent;
+    border: transparent;
+    border-bottom: 1px solid var(--color-light-green);
+    height: 50px;
+}
+.contact-right textarea {
+    background-color:transparent;
+    border: transparent;
+    border-bottom: 1px solid var(--color-light-green);
+    height: 100px;
+    resize:none;
+}
+.contact-right input::placeholder, .contact-right textarea::placeholder {
+   color: var(--color-light-green);
+   padding: 15px 0 0 20px;
+   font-family: var(--font-nav);
 
-
-
+}
+textarea:focus, input:focus {
+    color: var(--color-light-green);
+    font-size: 1.5rem;
+}
+.contact-right button {
+    background-color: var(--color-white);
+    font-family: var(--font-nav);
+    border-radius: 50px;
+    height: 50px;
+    width: 120px;
+    font-size: 1.2rem;
+    border: none;
+    margin: 20px 0 0 0;
+    color: var(--color-btn);
+    font-weight: bolder;
+}
