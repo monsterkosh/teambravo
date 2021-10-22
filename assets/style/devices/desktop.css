@@ -577,13 +577,13 @@ textarea:focus, input:focus {
 /****** footer about *******/
 
 #about-footer {
-    height: 320px;
+    height: 330px;
     background-image: var(--bg-about-pattern);
     background-repeat: no-repeat;
     background-size: 160px;
 }
 
-.footer-wrapper {
+.about-footer-wrapper {
     display: block;
     text-align: center;
     height: 100%;
@@ -607,6 +607,7 @@ textarea:focus, input:focus {
 .footer-clients img {
     width: 100px;
     height: 100%;
+    padding: 0px 20px;
 }
 
 
