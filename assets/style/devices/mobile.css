@@ -27,11 +27,11 @@ i {
 }
 .top {
     width: 100%;
+    display: flex;
     justify-content: space-around;
     align-items:flex-start;
     user-select: none;
     position: absolute;
-    display: flex;
     font-family: var(--font-nav);
     padding: 20px 0;
 }
