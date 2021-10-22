@@ -13,6 +13,7 @@
     --bg-color-pink: #F67E7E;
     --bg-color-footer: #002529;
     --bg-color-green-dark: #004047;
+    --bg-color-about-card: #012F34;
     --color-green-marks: #2C6269;
     --color-btn: #014E56;
     --color-light-green: #79C8C7;
@@ -32,5 +33,6 @@
     --bg-banner-left: url('/assets/icons/bg-pattern-home-6-about-5.svg');
     --bg-contact-form: url('/assets/icons/bg-pattern-contact-2.svg');
     --bg-contact-left: url('/assets/icons/bg-pattern-about-2-contact-1.svg');
-
+    --bg-contact-title: url('/assets/icons/bg-pattern-about-1-mobile-nav-1.svg');
+    --bg-about-pattern: url('/assets/icons/bg-pattern-about-4.svg')
 }
