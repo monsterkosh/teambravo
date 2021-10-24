@@ -1,4 +1,11 @@
 // // @ts-nocheck
+// @ts-ignore
+Parse.initialize(
+  'lE0eh2hx0evVb44b6cv2zxQXwz7AJxoQa1cluAHc',
+  '9yEYCJ8PZejqxKMYqIIi90YMEnsxbbAcNkkZYsZz'
+);
+Parse.serverURL = 'https://parseapi.back4app.com/';
+
 async function retrievePerson() {
   // @ts-ignore
   const personOne = new Parse.Query('testimonials');
