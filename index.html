@@ -8,9 +8,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="/assets/style/styles.css">
     <title>Team Bravo</title>
+    <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+    <script type="text/javascript" type="text/javascript">
+        Parse.initialize("lE0eh2hx0evVb44b6cv2zxQXwz7AJxoQa1cluAHc", "9yEYCJ8PZejqxKMYqIIi90YMEnsxbbAcNkkZYsZz");
+        Parse.serverURL = 'https://parseapi.back4app.com/'
+    </script>
 </head>
 
-<body>
+<body onload="retrievePerson()">
     <div class="container">
         <div class="top">
             <a href="/index.html"><img class="logo" src="assets/icons/logo.svg" alt="logo" /></a>
@@ -107,9 +112,9 @@
             </div>
         </section>
         <section id='testimonials'>
-            <div class="test-wrapper">
-                <h2 class="test-title">Delivering real results for top companies. <span class='capitalize'>some</span>
-                    of our <span>success stories.</span>
+            <div class="test-wrapper" ">
+                <h2 class=" test-title">Delivering real results for top companies. <span class='capitalize'>some</span>
+                of our <span>success stories.</span>
                 </h2>
                 <ul class="test-cards">
                     <li class="test-card">
@@ -117,8 +122,8 @@
                             “the team perfectly fit the specialized skill set required. They focused on the most
                             essential features helping us launch the platform eight months faster than planned.”
                         </p>
-                        <p class="test-name">kady baker</p>
-                        <p class="test-job">product manager <span class='tolowercase'>at</span> bookmark</p>
+                        <p class="test-name"><span id='db-name1'></span></p>
+                        <p class="test-job"><span id='db-job1'></span></p>
                         <img src="assets/icons/avatar-kady.jpg" alt="" />
                     </li>
                     <li class="test-card">
@@ -127,8 +132,8 @@
                             whole journey. <span class='capitalize'>Since</span> going live, user retention has gone
                             through the roof!”
                         </p>
-                        <p class="test-name">aiysha reese</p>
-                        <p class="test-job">founder <span class='tolowercase'>of</span> manage</p>
+                        <p class="test-name" id='db-name2'></p>
+                        <p class="test-job"><span id='db-job2'></span></p>
                         <img src="assets/icons/avatar-aiysha.jpg" alt="" />
                     </li>
                     <li class="test-card">
@@ -136,8 +141,8 @@
                             “the team perfectly fit the specialized skill set required. They focused on the most
                             essential features helping us launch the platform eight months faster than planned.”
                         </p>
-                        <p class="test-name">arthur clarke</p>
-                        <p class="test-job">co-founder <span class='tolowercase'>of</span> MyPhysio</p>
+                        <p class="test-name"><span id='db-name3'></span></p>
+                        <p class="test-job"><span id='db-job3'></span></p>
                         <img src="assets/icons/avatar-arthur.jpg" alt="" />
                     </li>
                 </ul>
@@ -183,6 +188,7 @@
             </div>
         </footer>
     </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
