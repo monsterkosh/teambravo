@@ -61,7 +61,7 @@ const homePage = () => {
           </ul>
       </div>
   </section>
-  <section id='testimonials'>
+  <section id='testimonials' >
       <div class="test-wrapper" ">
           <h2 class=" test-title">Delivering real results for top companies. <span class='capitalize'>some</span>
           of our <span>success stories.</span>
@@ -136,7 +136,8 @@ const homePage = () => {
               </div>
           </div>
       </div>
-  </footer>`;
+  </footer>
+  `;
 };
 
 const aboutPage = () => {
@@ -372,8 +373,5 @@ const onNavigate = (_pathname) => {
 
 window.onpopstate = () => {
   history.replaceState(null, null, ' ');
-  console.log(window.location.pathname);
-  console.log(window.location.origin);
-  console.log(window.location.origin + window.location.pathname);
   rootDiv.innerHTML = routes[window.location.pathname];
 };

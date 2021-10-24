@@ -15,10 +15,9 @@
     </script>
 </head>
 
-<!-- onload="retrievePerson()" -->
 
-<body>
-    <div class="container">
+<body onload="retrievePerson()">
+    <div class=" container">
         <div class="top">
             <a href="/index.html"><img class="logo" src="assets/icons/logo.svg" alt="logo" /></a>
             <div>
@@ -27,9 +26,9 @@
                     <span><i class="fas fa-bars"></i></span>
                 </label>
                 <nav>
-                    <li><button onclick="onNavigate('./pages/home.html')">home</button></li>
-                    <li><button onclick="onNavigate('./pages/about.html')" class="">about</button></li>
-                    <li><button onclick="onNavigate('./pages/contact.html')" class="">contact us</li>
+                    <li><a onclick="onNavigate('/')">home</a></li>
+                    <li><a onclick="onNavigate('/about')" class="">about</a></li>
+                    <li><a onclick="onNavigate('/contact')" class="">contact us</li>
                 </nav>
             </div>
         </div>
@@ -39,21 +38,22 @@
                     <a href="/index.html"><img class="logo" src="assets/icons/logo.svg" alt="logo" /></a>
                     <ul class="nav-list">
                         <li class="nav-link">
-                            <button onclick="onNavigate('/')" class="">home</button>
+                            <a onclick="onNavigate('/')" class="">home</a>
                         </li>
                         <li class="nav-link">
-                            <button onclick="onNavigate('/about')" class="">about</button>
+                            <a onclick="onNavigate('/about')" class="">about</a>
                         </li>
                     </ul>
                 </div>
                 <div class="nav-right">
-                    <button onclick="onNavigate('/contact')" class="">contact us</button>
+                    <a onclick="onNavigate('/contact')" class="">contact us</a>
                 </div>
             </div>
         </nav>
         <div id='root'></div>
     </div>
     <script src="main.js"></script>
+    <script src="js/apiCall.js"></script>
 </body>
 
 </html>
