@@ -10,6 +10,10 @@ footer {
     background-color: var(--bg-color-footer);
 }
 
+.container {
+    width: 100%;
+}
+
 .nav {
     padding: 5% 8%;
 }
@@ -27,15 +31,21 @@ footer {
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
+
 .nav-right {
     display: flex;
     justify-content: flex-end;
     width: 100%;
+    background-color: red;
+    /* overflow: hidden; */
 }
+
 .top {
     display: none;
 }
+
 .nav-list li a, .nav-right a {
     text-decoration: none;
     color: var(--color-white);
@@ -592,6 +602,17 @@ textarea:focus, input:focus {
     padding: 10px 0;
 }
 
+@media (max-width: 720px) { 
+    .nav-list li a, .nav-right a {
+        text-decoration: none;
+        color: var(--color-white);
+        font-family: var(--font-nav);
+        font-size: 0.8rem;
+    } 
 
+    .nav ul li:nth-child(1) {
+        margin: 0 20px;
+    }
+}
 
 

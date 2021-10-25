@@ -15,26 +15,6 @@ i {
     cursor: pointer;
 }
 
-/* .test2 {
-    width:100px;
-    height:100px;
-    background-color:blue;
-    outline:none;
-    cursor:pointer;
-} */
-
-/* .not1 {
-    display: none;
-    height:200px;
-background-color:green;
-}
-
-.test2:focus + .not1 {
-    display: block;
-    background-color: red;
-} */
-
-
 #aside-menu:checked ~ nav {
     display: flex;
     flex-direction: column;
