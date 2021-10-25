@@ -61,13 +61,6 @@ footer {
 
 
 header {
-    /* padding: 0 8%; */
-    /* display: block; */
-    /* background-image: var(--bg-header-left);
-    background-position: left;
-    background-repeat: no-repeat;
-    background-position-x: -100px;
-    background-position-y:center; */
     height: 60vh;
     justify-content: center;
     text-align: center;
@@ -79,13 +72,10 @@ header {
     height: 100%;
     width: 50%;
     margin: 0 auto;
-    /* display: block; */
     justify-content: space-between;
     background-image: var(--bg-header-right);
     background-position: 50% 100%;
     background-repeat: no-repeat;
-    /* height: 100%; */
-    /* background-position-y: 500px; */
 }
 
 .header-title {
@@ -131,20 +121,18 @@ header {
 }
 
 /********section details*******/
+
 #details {
     background-image: var(--bg-detail-right);
     background-position:right;
     background-repeat: no-repeat;
     background-position-y:top;
-    /* width: 60vw; */
     height: 70vh;
 }
 
 
 .details-wrapper {
-    /* display: flex;
-    padding: 12% 8%; */
-    /* justify-content: space-between; */
+
     font-family: var(--font-nav);
     width: 60%;
     margin: 0 auto;
@@ -158,9 +146,7 @@ header {
     display: flex;
     text-transform: capitalize;
 }
-/* .details-title {
-     width: 40%; 
-} */
+
 .details-title h2{
     font-size: 2.5rem;
     font-weight: bolder;
@@ -199,9 +185,6 @@ h2 {
     color: var(--color-pink);
     font-weight: bolder;
 }
-
-
-/* ---------- CAMBIOS EMI----------- */
 
 /******** seccion: testimonials ********/
 
@@ -248,8 +231,6 @@ h2 {
     font-family: var(--font-nav);
     font-weight: bold;
     font-size: 0.9rem;
-    /* display: flex; */
-
 }
 
 .test-card {
@@ -471,40 +452,27 @@ textarea:focus, input:focus {
 
 /******** ABOUT  ********/
 
-/***** about ******/
-
 #about {
     background-color: var(--bg-color-header); 
     height: 200px;
-    height: 100%;
-    /* padding: 100px 0 40px; */    
+    height: 100%;  
 }
 
 .about-wrapper {
-    /* display: flex; */
     height: 100%;
-    padding-top: 100px;
 }
 
 .about-title {
-    /* background-color: red; */
-    /* width: 30%; */
+
     text-align: center;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     color: var(--color-white);
     font-size: 2rem;
 }
 
 .about-description {
     height: 100%;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     color: var(--color-white);
     font-size: 1rem;
-    /* width: 70%; */
     padding: 20px 20%;
     background-image: var(--bg-contact-title);
     background-repeat: no-repeat;
@@ -518,8 +486,13 @@ textarea:focus, input:focus {
 }
 
 .dir-wrapper {
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
 }
 
 .dir-title {
@@ -535,7 +508,6 @@ textarea:focus, input:focus {
     margin: 20px ;
     text-align: center;
     position: relative;
-
 }
 
 
@@ -609,9 +581,6 @@ textarea:focus, input:focus {
 }
 
 .footer-clients {
-    /* display: flex;
-    justify-content: space-around; */
-    /* padding: 70px 50px; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -621,8 +590,6 @@ textarea:focus, input:focus {
 .footer-clients img {
     width: 100px;
     padding: 10px 0;
-    /* height: 100%; */
-    /* padding: 0px 20px; */
 }
 
 
