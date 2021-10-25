@@ -80,13 +80,16 @@ header {
 }
 
 .header-title, .header-description {
-    width: 40%;
+    /* width: 40%; */
     height: 100%;
+    width: 600px;
+    padding: 0 0 0 40px;
 }
 
 .header-title {
     display: flex;
     align-items: center;
+    
 }
 
 .header-title h1 {
@@ -137,6 +140,10 @@ header {
 }
 .details-cards li:nth-child(2){
     margin: 30px 0;
+
+}
+.details-cards {
+    padding: 0 0 0 40px;
 }
 .detail-card {
     list-style: none;
@@ -462,12 +469,13 @@ textarea:focus, input:focus {
 
 #about {
     background-color: var(--bg-color-header);
-    height: 200px;
+    height: 400px;
 }
 
 .about-wrapper {
     display: flex;
     height: 100%;
+    font-family: var(--font-nav);
 }
 
 .about-title {
@@ -477,7 +485,7 @@ textarea:focus, input:focus {
     align-items: center;
     justify-content: center;
     color: var(--color-white);
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .about-description {
@@ -486,7 +494,9 @@ textarea:focus, input:focus {
     align-items: center;
     justify-content: center;
     color: var(--color-white);
-    font-size: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
     width: 70%;
     padding: 0 10%;
     background-image: var(--bg-contact-title);
