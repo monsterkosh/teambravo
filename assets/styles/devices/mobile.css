@@ -23,10 +23,6 @@ i {
     position: absolute;
 }
 
-#aside-menu:checked ~ nav li:hover {
-    background-color:var(--color-light-green);
-}
-
 .logo {
     margin-left: 10px;
 }
@@ -43,7 +39,10 @@ i {
 }
 
 /*********************************/
+li a:visited ~ #aside-menu nav{
+   display: none;
 
+}
 nav li {
     list-style: none;
 }
@@ -54,8 +53,6 @@ nav li a {
     text-transform: capitalize;
     color:var(--color-white);
 }
-
-/******modificaciones*****/
 
 nav, header, #testimonials {
     background-color: var(--bg-color-header);
