@@ -174,10 +174,12 @@ const aboutPage = () => {
             <div class="dir-card">
                 <div class="dir-card-content">
                     <div class="dir-avatar">
-                        <img src="/assets/icons/avatar-nikita.jpg" alt="Nikita Marks photo" />
+                        <img src="/assets/icons/avatar-christian.jpg" alt="Nikita Marks photo" />
                     </div>
-                    <div class="dir-name">Nikita Marks</div>
-                    <div class="dir-job">Founder & CEO</div>
+                    <div class="dir-name">Cristian Duncan
+                    </div>
+                    <div class="dir-job">Co-founder & COO
+                    </div>
                 </div>
                 <div class="dir-card-plus">
                     <div class="dir-card-plus-wrapper">
@@ -189,10 +191,10 @@ const aboutPage = () => {
             <div class="dir-card">
                 <div class="dir-card-content">
                     <div class="dir-avatar">
-                        <img src="/assets/icons/avatar-nikita.jpg" alt="Nikita Marks photo" />
+                        <img src="/assets/icons/avatar-cruz.jpg" alt="Nikita Marks photo" />
                     </div>
-                    <div class="dir-name">Nikita Marks</div>
-                    <div class="dir-job">Founder & CEO</div>
+                    <div class="dir-name">Cruz Hamer</div>
+                    <div class="dir-job">Co-founder & CTO</div>
                 </div>
                 <div class="dir-card-plus">
                     <div class="dir-card-plus-wrapper">
@@ -204,10 +206,10 @@ const aboutPage = () => {
             <div class="dir-card">
                 <div class="dir-card-content">
                     <div class="dir-avatar">
-                        <img src="/assets/icons/avatar-nikita.jpg" alt="Nikita Marks photo" />
+                        <img src="/assets/icons/avatar-drake.jpg" alt="Nikita Marks photo" />
                     </div>
-                    <div class="dir-name">Nikita Marks</div>
-                    <div class="dir-job">Founder & CEO</div>
+                    <div class="dir-name">Drake Heaton</div>
+                    <div class="dir-job">Business Development Lead</div>
                 </div>
                 <div class="dir-card-plus">
                     <div class="dir-card-plus-wrapper">
@@ -219,10 +221,10 @@ const aboutPage = () => {
             <div class="dir-card">
                 <div class="dir-card-content">
                     <div class="dir-avatar">
-                        <img src="/assets/icons/avatar-nikita.jpg" alt="Nikita Marks photo" />
+                        <img src="/assets/icons/avatar-griffin.jpg" alt="Nikita Marks photo" />
                     </div>
-                    <div class="dir-name">Nikita Marks</div>
-                    <div class="dir-job">Founder & CEO</div>
+                    <div class="dir-name">Griffin Wise</div>
+                    <div class="dir-job">Lead Marketing</div>
                 </div>
                 <div class="dir-card-plus">
                     <div class="dir-card-plus-wrapper">
@@ -234,10 +236,10 @@ const aboutPage = () => {
             <div class="dir-card">
                 <div class="dir-card-content">
                     <div class="dir-avatar">
-                        <img src="/assets/icons/avatar-nikita.jpg" alt="Nikita Marks photo" />
+                        <img src="/assets/icons/avatar-aden.jpg" alt="Nikita Marks photo" />
                     </div>
-                    <div class="dir-name">Nikita Marks</div>
-                    <div class="dir-job">Founder & CEO</div>
+                    <div class="dir-name">Aden Allan</div>
+                    <div class="dir-job">Head of Talent</div>
                 </div>
                 <div class="dir-card-plus">
                     <div class="dir-card-plus-wrapper">
