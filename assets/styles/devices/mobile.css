@@ -5,13 +5,16 @@ input[type=checkbox] {
 .nav, nav {
     display: none;
 }
+
 i {
     color: var(--color-white);
     margin: 10px 0 0 70px;
 }
+
 .burguer {
     cursor: pointer;
 }
+
 #aside-menu:checked ~ nav {
     display: flex;
     flex-direction: column;
@@ -19,12 +22,15 @@ i {
     text-align: right;
     position: absolute;
 }
+
 #aside-menu:checked ~ nav li:hover {
     background-color:var(--color-light-green);
 }
+
 .logo {
     margin-left: 10px;
 }
+
 .top {
     width: 100%;
     display: flex;
@@ -461,13 +467,12 @@ footer {
 /***********FIN footer estilado para mobile por analia**********/
 
 
-
-
 /*****contact******/
 
 #contact {
     background-color: var(--bg-color-header);
 }
+
 .contact-wrapper {
     padding: 20% 8% 8% 8%;
     height: 800px;
@@ -537,6 +542,163 @@ textarea:focus, input:focus {
     margin: 20px 0 0 0;
     color: var(--color-btn);
     font-weight: bolder;
+}
+
+
+/***** about ******/
+
+#about {
+    background-color: var(--bg-color-header); 
+    height: 200px;
+    height: 100%;
+    /* padding: 100px 0 40px; */    
+}
+
+.about-wrapper {
+    /* display: flex; */
+    height: 100%;
+    padding-top: 100px;
+}
+
+.about-title {
+    /* background-color: red; */
+    /* width: 30%; */
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    color: var(--color-white);
+    font-size: 2rem;
+}
+
+.about-description {
+    height: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    color: var(--color-white);
+    font-size: 1rem;
+    /* width: 70%; */
+    padding: 20px 20%;
+    background-image: var(--bg-contact-title);
+    background-repeat: no-repeat;
+    background-position: 120%;
+    text-align: center;
+}
+
+#directors {
+    background-color: var(--bg-color-green-dark);
+    padding-bottom: 40px;
+}
+
+.dir-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dir-title {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.dir-card {
+    background-color: var(--bg-color-about-card);
+    height: 180px;
+    width: 600px;
+    margin: 20px ;
+    text-align: center;
+    position: relative;
+
+}
+
+
+
+.dir-avatar img {
+    border-radius: 50%;
+    border: 2px solid var(--color-light-green);
+    width: 60px;
+    margin-top: 20px;
+}
+
+.dir-card-plus {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    padding-top: 20px;
+}
+
+.dir-card-plus-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--bg-color-pink);
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+.dir-card-plus img {
+    height: 50%;
+    width: 50%;
+}
+
+.dir-name {
+    color: var(--color-light-green);
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.dir-job {
+    color: var(--color-white);
+    padding-top: 5px;
+}
+
+/****** footer about *******/
+
+#about-footer {
+    height: 100%;
+    background-image: var(--bg-about-pattern);
+    background-repeat: no-repeat;
+    background-size: 160px;
+    width: 100%;
+}
+
+.about-footer-wrapper {
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+.footer-title {
+    padding: 80px 0 20px;
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+.footer-title::first-letter {
+    text-transform: uppercase;
+}
+
+.footer-clients {
+    /* display: flex;
+    justify-content: space-around; */
+    /* padding: 70px 50px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+
+}
+
+.footer-clients img {
+    width: 100px;
+    padding: 10px 0;
+    /* height: 100%; */
+    /* padding: 0px 20px; */
 }
 
 
