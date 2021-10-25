@@ -367,7 +367,6 @@ const rootDiv = document.getElementById('root');
 const onNavigate = (_pathname) => {
   history.replaceState(null, null, _pathname);
   history.pushState(null, _pathname, _pathname);
-
   rootDiv.innerHTML = routes[_pathname];
 };
 
