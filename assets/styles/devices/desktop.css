@@ -80,7 +80,6 @@ header {
 }
 
 .header-title, .header-description {
-    /* width: 40%; */
     height: 100%;
     width: 600px;
     padding: 0 0 0 40px;
@@ -326,7 +325,6 @@ footer {
     height: 100%;
     width: 90%;
     align-content: center;
-
 }
 
 .footer-left {
@@ -377,6 +375,7 @@ footer {
 }
 
 /*****contact******/
+
 #contact {
     background-image: var(--bg-contact-left);
     background-position:top;
@@ -388,7 +387,6 @@ footer {
     display: flex;
     justify-content:space-between;
     padding: 8% 8%;
-    /* height: 600px; */
     background-image: var(--bg-contact-form);
     background-position:bottom;
     background-repeat: no-repeat;

@@ -66,33 +66,14 @@ footer {
 
 header {
     padding: 0 8%;
-    /* background-image: var(--bg-header-left);
-    background-position:left;
-    background-repeat: no-repeat; */
-    /* background-position-x: -100px;
-    background-position-y:center; */
     height: 600px;
 }
 
 .header-wrapper {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center; */
-    /* justify-content: space-between; */
-    /* background-image: var(--bg-header-right);
-    background-position:left;
-    background-repeat: no-repeat; */
-    /* background-position-y: 500px; */
     height: 100%;
     width: 100%;
 }
 
-
-/* .header-title, .header-description {
-    width: 40%;
-    height: 100%;
-} */
 .header-title {
     display: flex;
     width: 60%;
@@ -126,11 +107,6 @@ header {
     margin-top: 50px;
 
 }
-/* .header-description div:nth-child(1) {
-    width: 50px;
-    border-top: 5px solid var(--color-light-green);
-    
-} */
 
 /********section details*******/
 
@@ -146,19 +122,8 @@ header {
     padding: 0;
     font-family: var(--font-nav);
     padding-bottom: 50px;
-    /* display: flex;
-    flex-direction: column; */
-    /* padding: 12% 8%; */
-    /* justify-content: space-between; */
-    
-    /* background-image: var(--bg-detail-right); */
-    /* background-position:top;
-    background-repeat: no-repeat;
-    background-position-x: -100px; */
 }
-.details-cards li:nth-child(2){
-    /* margin: 30px 0; */
-}
+
 .detail-card {
     list-style: none;
     display: flex;
@@ -169,7 +134,6 @@ header {
 .details-title {
     padding-top: 50px;
     text-align: left;
-    /* width: 40%; */
 }
 .details-wrapper h2{
     font-size: 2rem;
@@ -186,9 +150,7 @@ h2 span {
 h2 {
     color: var(--color-white);
 }
-/* .detail-card img {
-    margin-right: 20px;
-} */
+
 .detail-card  div:nth-child(2) {
     display: flex;
     flex-direction: column;
@@ -213,24 +175,8 @@ h2 {
 
 /******** seccion: testimonials ********/
 
-#testimonials {
-    /* background-image: var(--bg-test-left);
-    background-repeat: no-repeat; */
-}
-
-
 .tolowercase {
     text-transform: lowercase;
-}
-
-.test-wrapper {
-    /* width: 100%;
-    text-align: center;
-    padding:  0px;
-    display: block; */
-    /* background-image: var(--bg-test-right);
-    background-repeat: no-repeat;
-    background-position: right bottom; */
 }
 
 .test-wrapper li {
@@ -242,8 +188,6 @@ h2 {
     font-family: var(--font-sans);
     font-weight: 900;
     margin: 0 30px;
-
-    /* padding-bottom: 50px ; */
 }
 
 .test-title span:last-child {
@@ -252,15 +196,8 @@ h2 {
 }
 
 .test-cards {
-    /* background-color: blue; */
     width: 100%;
     margin: 0;
-    /* padding-top: 20px; */
-    /* color: var(--color-white);
-    font-family: var(--font-nav);
-    font-weight: bold;
-    font-size: 0.9rem; */
-    /* display: flex; */
 }
 
 .test-card {
@@ -343,8 +280,6 @@ h2 {
 
 footer {
     height: 500px;
-    /* display: flex;
-    justify-content: center; */
 }
 
 .footer-wrapper {
@@ -547,8 +482,7 @@ textarea:focus, input:focus {
 #about {
     background-color: var(--bg-color-header); 
     height: 200px;
-    height: 100%;
-    /* padding: 100px 0 40px; */    
+    height: 100%;   
 }
 
 .about-wrapper {
@@ -558,24 +492,15 @@ textarea:focus, input:focus {
 }
 
 .about-title {
-    /* background-color: red; */
-    /* width: 30%; */
     text-align: center;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     color: var(--color-white);
     font-size: 2rem;
 }
 
 .about-description {
     height: 100%;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     color: var(--color-white);
     font-size: 1rem;
-    /* width: 70%; */
     padding: 20px 20%;
     background-image: var(--bg-contact-title);
     background-repeat: no-repeat;
@@ -608,8 +533,6 @@ textarea:focus, input:focus {
     position: relative;
 
 }
-
-
 
 .dir-avatar img {
     border-radius: 50%;
@@ -681,9 +604,6 @@ textarea:focus, input:focus {
 }
 
 .footer-clients {
-    /* display: flex;
-    justify-content: space-around; */
-    /* padding: 70px 50px; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -694,8 +614,6 @@ textarea:focus, input:focus {
 .footer-clients img {
     width: 100px;
     padding: 10px 0;
-    /* height: 100%; */
-    /* padding: 0px 20px; */
 }
 
 
