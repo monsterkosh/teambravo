@@ -1,12 +1,1 @@
-@import url('./basis.css');
-@import url('./devices/desktop.css') (min-width: 1026px);
-@import url('./devices/tablet.css') (max-width: 1025px);
-@import url('./devices/mobile.css') (max-width: 480px);
-
-
-
-/* 
-@import url('./devices/desktop.css') (min-width: 1026px) and (max-device-width: 2500px);
-@import url('./devices/tablet.css') (min-device-width: 481px) and (max-device-width: 1025px);
-@import url('./devices/mobile.css') (min-device-width: 0px) and (max-device-width: 480px); 
-*/
+@import url(basis.css);@import url(devices/desktop.css) (min-width: 1026px);@import url(devices/tablet.css) (max-width: 1025px);@import url(devices/mobile.css) (max-width: 480px);
