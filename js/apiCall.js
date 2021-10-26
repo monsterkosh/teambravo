@@ -1,3 +1,4 @@
+// @ts-nocheck
 // // @ts-nocheck
 // @ts-ignore
 Parse.initialize(
@@ -29,6 +30,6 @@ async function retrievePerson() {
     document.getElementById('db-name3').innerHTML = name3;
     document.getElementById('db-job3').innerHTML = job3;
   } catch (error) {
-    alert(`Failed to retrieve the object, with error code: ${error.message}`);
+    Rollbar.critical('Failed APIcall');
   }
 }

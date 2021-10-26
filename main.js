@@ -268,8 +268,7 @@ const aboutPage = () => {
 };
 
 const contactPage = () => {
-  return `
-          <section id="contact">
+  return `<section id="contact">
               <div class="contact-wrapper">
                   <div class="contact-left">
                       <h2>Contact</h2>
@@ -308,7 +307,7 @@ const contactPage = () => {
                           <input name="from_company" placeholder="Company Name" id="company" type="text">
                           <input name="from_subject" placeholder="Title" id="subject"  type="text">
                           <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                          <button type="submit" value="Send">submit</button>
+                          <button type="submit" value="Send" onclick="send()">submit</button>
                           </button>
                       </form>
                   </div>
@@ -348,9 +347,6 @@ const contactPage = () => {
               </div>
           </footer>
       </div>
-  
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-      <script src="/form/form.js"></script>
       `;
 };
 

@@ -3,18 +3,18 @@
   emailjs.init('user_aUQaLaKkjPI96V8O45yPq');
 })();
 
-window.onload = function () {
+function send() {
   document
     .getElementById('contact-form')
     .addEventListener('submit', function (event) {
       event.preventDefault();
       emailjs.sendForm('service_6gq48gb', 'template_fu895c4', this).then(
         function () {
-          console.log('SUCCESS!');
+          alert('Sent!!');
         },
         function (error) {
-          console.log('FAILED...', error);
+          Rollbar.warning('FAILED to send message');
         }
       );
     });
-};
+}
